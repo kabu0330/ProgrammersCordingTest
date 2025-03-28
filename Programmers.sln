@@ -15,6 +15,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_스택_올바른 괄호"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_스택_다리를 지나는 트럭", "02_스택_다리를 지나는 트럭\02_스택_다리를 지나는 트럭.vcxproj", "{65C38CBD-2F0C-482A-97DC-59B28EE151AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STL", "STL", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Queue", "04_Queue\04_Queue.vcxproj", "{7A101DF2-BE5A-4719-A33D-146F98368FCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Queue_프로세스", "02_Queue_프로세스\02_Queue_프로세스.vcxproj", "{C0591CBE-96DC-418B-847F-13B7A11DE02B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,9 +77,28 @@ Global
 		{65C38CBD-2F0C-482A-97DC-59B28EE151AC}.Release|x64.Build.0 = Release|x64
 		{65C38CBD-2F0C-482A-97DC-59B28EE151AC}.Release|x86.ActiveCfg = Release|Win32
 		{65C38CBD-2F0C-482A-97DC-59B28EE151AC}.Release|x86.Build.0 = Release|Win32
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Debug|x64.ActiveCfg = Debug|x64
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Debug|x64.Build.0 = Debug|x64
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Debug|x86.Build.0 = Debug|Win32
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Release|x64.ActiveCfg = Release|x64
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Release|x64.Build.0 = Release|x64
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Release|x86.ActiveCfg = Release|Win32
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC}.Release|x86.Build.0 = Release|Win32
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Debug|x64.ActiveCfg = Debug|x64
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Debug|x64.Build.0 = Debug|x64
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Debug|x86.Build.0 = Debug|Win32
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Release|x64.ActiveCfg = Release|x64
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Release|x64.Build.0 = Release|x64
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Release|x86.ActiveCfg = Release|Win32
+		{C0591CBE-96DC-418B-847F-13B7A11DE02B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A101DF2-BE5A-4719-A33D-146F98368FCC} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
