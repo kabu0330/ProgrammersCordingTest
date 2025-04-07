@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c0591cbe-96dc-418b-847f-13b7a11de02b}</ProjectGuid>
-    <RootNamespace>My02Queue프로세스</RootNamespace>
+    <ProjectGuid>{b24ef6d4-e113-4e04-ad21-f1d16e77f577}</ProjectGuid>
+    <RootNamespace>My02Queue프로세스AnotherApproach</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,10 +126,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\02_Queue_프로세스_AnotherApproach\AnotherApproach.cpp" />
-    <ClCompile Include="02_Queue_프로세스.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
