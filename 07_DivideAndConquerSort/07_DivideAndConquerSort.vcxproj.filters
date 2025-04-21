@@ -6,5 +6,6 @@
   <ItemGroup>
     <ClInclude Include="01_MergeSort.h" />
     <ClInclude Include="01_Simple_MergeSort.h" />
+    <ClInclude Include="02_QuickSort.h" />
   </ItemGroup>
 </Project>
