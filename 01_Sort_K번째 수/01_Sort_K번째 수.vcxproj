@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7a573b1c-9421-494f-a7fe-348be4d935b6}</ProjectGuid>
-    <RootNamespace>My07DivideAndConquerSort</RootNamespace>
+    <ProjectGuid>{341c0289-98e8-4c68-ab5b-90712dbe9bab}</ProjectGuid>
+    <RootNamespace>My01SortK번째수</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="07_DivideAndConquerSort.cpp" />
+    <ClCompile Include="01_Sort_K번째 수.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_MergeSort.h" />
-    <ClInclude Include="01_Simple_MergeSort.h" />
+    <ClInclude Include="AnotherApproach.h" />
+    <ClInclude Include="Solution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
