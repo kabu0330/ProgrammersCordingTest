@@ -24,6 +24,7 @@
     <ProjectGuid>{ad7a4769-3c09-4006-8db0-b8a6578721d1}</ProjectGuid>
     <RootNamespace>My02스택올바른괄호</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02_Stack_올바른 괄호</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

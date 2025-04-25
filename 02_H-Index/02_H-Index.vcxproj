@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{341c0289-98e8-4c68-ab5b-90712dbe9bab}</ProjectGuid>
-    <RootNamespace>My01SortK번째수</RootNamespace>
+    <ProjectGuid>{3c0c4257-1d45-4e48-a2c3-ce2a385fbd26}</ProjectGuid>
+    <RootNamespace>My02HIndex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02_Sort_H-Index</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,12 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\02_H-Index\02_H-Index.cpp" />
-    <ClCompile Include="01_Sort_K번째 수.cpp" />
+    <ClCompile Include="02_H-Index.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnotherApproach.h" />
-    <ClInclude Include="Solution.h" />
+    <ClInclude Include="solution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

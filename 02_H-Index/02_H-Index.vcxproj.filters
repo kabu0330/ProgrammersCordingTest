@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="01_Sort_K번째 수.cpp" />
-    <ClCompile Include="..\02_H-Index\02_H-Index.cpp" />
+    <ClInclude Include="solution.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnotherApproach.h" />
-    <ClInclude Include="Solution.h" />
+    <ClCompile Include="02_H-Index.cpp" />
   </ItemGroup>
 </Project>

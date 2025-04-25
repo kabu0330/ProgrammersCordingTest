@@ -3,4 +3,7 @@
   <ItemGroup>
     <ClCompile Include="02_스택_다리를 지나는 트럭.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="solution.h" />
+  </ItemGroup>
 </Project>
