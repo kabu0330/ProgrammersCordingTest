@@ -16,40 +16,34 @@ int solution(int bridge_length, int weight, vector<int> truck_weights)
 	}
 
 	int Time = 0;
-	int CurWeight = 0;
 	int Index = 0;
-	while (true)
+	int BridgeWeight = 0;
+	while (true != Bridge.empty())
 	{
-		++Time; // 1초 증가
+		++Time;
 
-		// 무조건 1초마다 브릿지 큐 하나 지운다.
-		CurWeight -= Bridge.front();
-		Bridge.pop(); 
+		int CurTruck = Bridge.front();
+		Bridge.pop();
 
-		int WaitingTruck = truck_weights[Index];
+		BridgeWeight -= CurTruck;
 
-		if (WaitingTruck + CurWeight <= weight)
+		if (Index == truck_weights.size())
 		{
-			CurWeight += WaitingTruck;
-			Bridge.push(WaitingTruck);
+			continue;
+		}
 
-			++Index; // 다음 트럭 무게와 비교
-			if (truck_weights.size() - 1 == Index)
-			{
-				--Index;
-			}
+		int NextTruckWeight = truck_weights[Index];
+		if (BridgeWeight + NextTruckWeight <= weight)
+		{
+			Bridge.push(NextTruckWeight);
+			++Index;
+			BridgeWeight += NextTruckWeight;
 		}
 		else
 		{
 			Bridge.push(0);
 		}
-
-		if (true == Bridge.empty()) // 다리를 모두 지났으면 경과시간 리턴
-		{
-			return Time;
-		}
-		
 	}
 
-	return 0;
+	return Time;
 }

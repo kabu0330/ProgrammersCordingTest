@@ -6,5 +6,5 @@
 int main()
 {
     std::vector<int> Vector{ 7, 4, 5, 6 };
-    int Result = solution(2, 10, Vector);
+    std::cout << solution(2, 10, Vector);
 }
