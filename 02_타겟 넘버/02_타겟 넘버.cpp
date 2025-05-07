@@ -25,5 +25,5 @@ int solution(vector<int> numbers, int target)
 
 int main()
 {
-    std::cout << solution({ 1, 1, 1, 1 }, 3);
+    std::cout << solution({ 1, 1, 1, 1, 1 }, 3);
 }
