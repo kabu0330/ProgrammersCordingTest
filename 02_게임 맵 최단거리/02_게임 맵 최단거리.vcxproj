@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c2889a3a-3d65-4af8-b8a4-c5c9c4e3d369}</ProjectGuid>
-    <RootNamespace>My02타겟넘버</RootNamespace>
+    <ProjectGuid>{92574eb5-c3b6-4afa-b444-fe54a82cab7c}</ProjectGuid>
+    <RootNamespace>My02게임맵최단거리</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02_타겟 넘버(DFS)</ProjectName>
+    <ProjectName>02_게임 맵 최단거리(BFS)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02_타겟 넘버.cpp" />
+    <ClCompile Include="02_게임 맵 최단거리.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
