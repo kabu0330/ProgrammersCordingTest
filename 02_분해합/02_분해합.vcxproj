@@ -24,6 +24,7 @@
     <ProjectGuid>{f1b5529c-4431-44f4-9c42-c537b70ac3d9}</ProjectGuid>
     <RootNamespace>My02분해합</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>03_분해합</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

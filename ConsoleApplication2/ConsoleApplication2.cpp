@@ -1,11 +1,11 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+#include <string>
 
 int main()
 {
-	char Char0 = '0';
-	char CharA = 'A';
-	char CharZ = 'Z';
+	std::string str = "APPLE";
+	str += ", World!";
 
-	int a = 0;
+	str.replace(7, 4, "Col");
+	std::cout << str << std::endl;
 }
