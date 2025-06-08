@@ -6,6 +6,8 @@ int main()
 	std::random_device rd;
 	std::mt19937 gen(rd());
 	std::uniform_int_distribution<> dist(1, 100);
+	int RandomResult = dist(gen);
+
 	int answer0 = -1;
 	int answer1 = -1;
 
@@ -14,6 +16,5 @@ int main()
 		answer0 = dist(gen);
 		answer1 = dist(gen);
 		std::cout << answer0 << ", " << answer1 << std::endl;
-		std::cout << "\n";
 	}
 }
