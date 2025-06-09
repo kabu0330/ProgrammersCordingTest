@@ -17,7 +17,7 @@ bool isValid(std::string& str, int start)
     
     for (int i = 0; i < size; i++)
     {
-        int index = (start + i) % size;
+        int index = (start + i) % size; // 괄호가 이동하는게 아니라 탐색 순서만 한 칸씩 이동하고 맨 끝이면 다시 0번 인덱스로 돌아간다.
         char ch = str[index];
 
         int a = bracketPair.count(ch);
