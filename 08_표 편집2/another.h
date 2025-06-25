@@ -10,8 +10,6 @@ namespace another
 {
     string solution(int n, int k, vector<string> cmd) 
     {
-        string result;
-
         vector<int> prev(n), next(n);
         for (int i = 0; i < n; i++)
         {
@@ -65,10 +63,33 @@ namespace another
                 {
                     prev[ne] = p;
                 }
+                cur = (ne < n ? ne : p);
+            }
+            else // 'Z' Undo: 마지막 삭제 복구
+            {
+                int r = deletedStack.top();
+                deletedStack.pop();
+                exists[r] = 1;
+
+                int p = prev[r];
+                int n_ = next[r];
+                if (p >= 0)
+                {
+                    next[p] = r;
+                }
+                if (n_ < n)
+                {
+                    prev[n_] = r;
+                }        
             }
         }
-  
 
-        return result;
+        string answer;
+        answer.reserve(n);  // reserve: 내부 용량 미리 확보
+        for (int e : exists)
+        {
+            answer.push_back(e ? 'O' : 'X'); // push_back: 문자열 끝에 문자 추가
+        }
+        return answer;
     }
 }
