@@ -67,19 +67,19 @@ namespace another
             }
             else // 'Z' Undo: 마지막 삭제 복구
             {
-                int r = deletedStack.top();
+                int restore = deletedStack.top();
                 deletedStack.pop();
-                exists[r] = 1;
+                exists[restore] = 1;
 
-                int p = prev[r];
-                int n_ = next[r];
+                int p = prev[restore];
+                int ne = next[restore];
                 if (p >= 0)
                 {
-                    next[p] = r;
+                    next[p] = restore;
                 }
-                if (n_ < n)
+                if (ne < n)
                 {
-                    prev[n_] = r;
+                    prev[ne] = restore;
                 }        
             }
         }
