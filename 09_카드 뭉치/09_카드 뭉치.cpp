@@ -1,20 +1,55 @@
-﻿// 09_카드 뭉치.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
+﻿
 #include <iostream>
+
+
+#include <string>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
+string solution(vector<string> cards1, vector<string> cards2, vector<string> goal) 
+{
+    string answer = "Yes";
+    queue<string> queue1;
+    queue<string> queue2;
+    
+    for (int i = 0; i < cards1.size(); i++)
+    {
+        queue1.push(cards1[i]);
+    }
+    for (int i = 0; i < cards2.size(); i++)
+    {
+        queue2.push(cards2[i]);
+    }
+
+    for (int i = 0; i < goal.size(); i++)
+    {
+        string str = goal[i];
+        
+        if (false == queue1.empty() && str == queue1.front())
+        {
+            queue1.pop();
+        }
+        else if (false == queue2.empty() && str == queue2.front())
+        {
+            queue2.pop();
+        }
+        else
+        {
+            answer = "No";
+            break;
+        }
+    }
+    
+    return answer;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    vector<string> cards1 = { "i", "water", "drink" };
+    vector<string> cards2 = { "want", "to" };
+    vector<string> goal = { "i", "want", "to", "drink", "water" };
+    string result = solution(cards1, cards2, goal);
 }
 
-// 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
-// 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
-
-// 시작을 위한 팁: 
-//   1. [솔루션 탐색기] 창을 사용하여 파일을 추가/관리합니다.
-//   2. [팀 탐색기] 창을 사용하여 소스 제어에 연결합니다.
-//   3. [출력] 창을 사용하여 빌드 출력 및 기타 메시지를 확인합니다.
-//   4. [오류 목록] 창을 사용하여 오류를 봅니다.
-//   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
-//   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.
