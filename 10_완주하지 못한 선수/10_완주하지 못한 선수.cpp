@@ -4,9 +4,7 @@
 #include <string>
 #include <unordered_map>
 
-
 using namespace std;
-
 
 string solution(vector<string> participant, vector<string> completion)
 {
