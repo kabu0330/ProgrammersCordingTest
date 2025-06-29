@@ -173,6 +173,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_기능 개발", "09_기�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_카드 뭉치", "09_카드 뭉치\09_카드 뭉치.vcxproj", "{E3DCD4D0-4A5D-45FB-89FA-CC1E2F0CA90A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_두 개의 수로 특정 값 만들기", "10_두 개의 수로 특정 값 만들기\10_두 개의 수로 특정 값 만들기.vcxproj", "{F123CC28-505E-4823-B8A7-50E242982903}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -725,6 +727,14 @@ Global
 		{E3DCD4D0-4A5D-45FB-89FA-CC1E2F0CA90A}.Release|x64.Build.0 = Release|x64
 		{E3DCD4D0-4A5D-45FB-89FA-CC1E2F0CA90A}.Release|x86.ActiveCfg = Release|Win32
 		{E3DCD4D0-4A5D-45FB-89FA-CC1E2F0CA90A}.Release|x86.Build.0 = Release|Win32
+		{F123CC28-505E-4823-B8A7-50E242982903}.Debug|x64.ActiveCfg = Debug|x64
+		{F123CC28-505E-4823-B8A7-50E242982903}.Debug|x64.Build.0 = Debug|x64
+		{F123CC28-505E-4823-B8A7-50E242982903}.Debug|x86.ActiveCfg = Debug|Win32
+		{F123CC28-505E-4823-B8A7-50E242982903}.Debug|x86.Build.0 = Debug|Win32
+		{F123CC28-505E-4823-B8A7-50E242982903}.Release|x64.ActiveCfg = Release|x64
+		{F123CC28-505E-4823-B8A7-50E242982903}.Release|x64.Build.0 = Release|x64
+		{F123CC28-505E-4823-B8A7-50E242982903}.Release|x86.ActiveCfg = Release|Win32
+		{F123CC28-505E-4823-B8A7-50E242982903}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -808,6 +818,7 @@ Global
 		{7F795A78-7C09-4C39-B665-79E244A829AB} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{13B17D12-4E82-4ECB-8F1B-263F060F5104} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{E3DCD4D0-4A5D-45FB-89FA-CC1E2F0CA90A} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{F123CC28-505E-4823-B8A7-50E242982903} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
