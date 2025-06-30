@@ -42,25 +42,25 @@ int solution2(vector<string> want, vector<int> number, vector<string> discount)
     unordered_map<string, int> wantMap;
     for (int i = 0; i < want.size(); i++)
     {
-        wantMap[want[i]] = number[i];
+        wantMap[want[i]] = number[i]; // 품목과 수량 저장
     }
 
 	unordered_map<string, int> discount_set;
     for (int i = 0; i < 9; i++)
     {
-        discount_set[discount[i]]++;
+        discount_set[discount[i]]++; // 9일치 할인 품목 저장
     }
 
-    for (int i = 9; i < discount.size(); i++)
+    for (int i = 9; i < discount.size(); i++) // 10일차부터 마지막날까지
     {
-        discount_set[discount[i]]++;
-        if (wantMap == discount_set)
+        discount_set[discount[i]]++; // 10번째 할인 품목 추가
+        if (wantMap == discount_set) // 키-값이 모두 일치하면
         {
             answer++;
         }
-        if (--discount_set[discount[i - 9]] == 0)
+        if (--discount_set[discount[i - 9]] == 0) // 첫 날 할인 품목 삭제
         {
-            discount_set.erase(discount[i - 9]);
+            discount_set.erase(discount[i - 9]); // 값이 0이면 key 삭제
         }
     }
 
