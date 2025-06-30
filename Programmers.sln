@@ -181,6 +181,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_완주하지 못한 선�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_영어 끝말잇기", "10_영어 끝말잇기\10_영어 끝말잇기.vcxproj", "{D4A75C6E-7526-4A34-A499-6E9CFD9E4925}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_전화번호 목록", "11_전화번호 목록\11_전화번호 목록.vcxproj", "{5AA0273A-6046-44DB-ACCA-50123504280B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -765,6 +767,14 @@ Global
 		{D4A75C6E-7526-4A34-A499-6E9CFD9E4925}.Release|x64.Build.0 = Release|x64
 		{D4A75C6E-7526-4A34-A499-6E9CFD9E4925}.Release|x86.ActiveCfg = Release|Win32
 		{D4A75C6E-7526-4A34-A499-6E9CFD9E4925}.Release|x86.Build.0 = Release|Win32
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Debug|x64.ActiveCfg = Debug|x64
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Debug|x64.Build.0 = Debug|x64
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Debug|x86.Build.0 = Debug|Win32
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Release|x64.ActiveCfg = Release|x64
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Release|x64.Build.0 = Release|x64
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Release|x86.ActiveCfg = Release|Win32
+		{5AA0273A-6046-44DB-ACCA-50123504280B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -852,6 +862,7 @@ Global
 		{CC217C90-03DB-438E-B721-E44720919110} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{54843F2B-DD0C-4B5A-93BF-453FE0A877BE} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{D4A75C6E-7526-4A34-A499-6E9CFD9E4925} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{5AA0273A-6046-44DB-ACCA-50123504280B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
