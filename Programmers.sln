@@ -189,6 +189,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_오픈 채팅방", "11_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string stream", "string stream\string stream.vcxproj", "{0A70EE33-78ED-4200-9C11-C321C0FCC7A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_베스트 앨범", "11_베스트 앨범\11_베스트 앨범.vcxproj", "{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -805,6 +807,14 @@ Global
 		{0A70EE33-78ED-4200-9C11-C321C0FCC7A3}.Release|x64.Build.0 = Release|x64
 		{0A70EE33-78ED-4200-9C11-C321C0FCC7A3}.Release|x86.ActiveCfg = Release|Win32
 		{0A70EE33-78ED-4200-9C11-C321C0FCC7A3}.Release|x86.Build.0 = Release|Win32
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Debug|x64.ActiveCfg = Debug|x64
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Debug|x64.Build.0 = Debug|x64
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Debug|x86.Build.0 = Debug|Win32
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Release|x64.ActiveCfg = Release|x64
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Release|x64.Build.0 = Release|x64
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Release|x86.ActiveCfg = Release|Win32
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -896,6 +906,7 @@ Global
 		{01C925C7-E189-4222-87CA-8111782EF030} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{BFA0C421-263C-4E57-8C41-E4FE5AE4F33A} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{0A70EE33-78ED-4200-9C11-C321C0FCC7A3} = {12B884C8-15AC-4C8B-8ABF-0614DE8982EB}
+		{E0A984DE-A09A-4D6E-8EEE-5439BC27A5FF} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
