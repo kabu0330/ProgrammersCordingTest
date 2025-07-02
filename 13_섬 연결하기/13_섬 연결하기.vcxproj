@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="13_섬 연결하기.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="another.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
