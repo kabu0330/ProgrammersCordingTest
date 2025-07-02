@@ -205,7 +205,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_예상 대진표", "12_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_다단계 칫솔 판매", "12_다단계 칫솔 판매\12_다단계 칫솔 판매.vcxproj", "{0842D4D8-A6F8-4882-9D26-E3B816E91833}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_길 찾기 게임", "12_길 찾기 게임\12_길 찾기 게임.vcxproj", "{5871351F-9BC6-44B2-AF4F-AC88F4702786}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_길 찾기 게임", "12_길 찾기 게임\12_길 찾기 게임.vcxproj", "{5871351F-9BC6-44B2-AF4F-AC88F4702786}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_유니온-파인드 알고리즘", "13_유니온-파인드 알고리즘\13_유니온-파인드 알고리즘.vcxproj", "{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -895,6 +897,14 @@ Global
 		{5871351F-9BC6-44B2-AF4F-AC88F4702786}.Release|x64.Build.0 = Release|x64
 		{5871351F-9BC6-44B2-AF4F-AC88F4702786}.Release|x86.ActiveCfg = Release|Win32
 		{5871351F-9BC6-44B2-AF4F-AC88F4702786}.Release|x86.Build.0 = Release|Win32
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Debug|x64.ActiveCfg = Debug|x64
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Debug|x64.Build.0 = Debug|x64
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Debug|x86.Build.0 = Debug|Win32
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Release|x64.ActiveCfg = Release|x64
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Release|x64.Build.0 = Release|x64
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Release|x86.ActiveCfg = Release|Win32
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -995,6 +1005,7 @@ Global
 		{7DE0FD6E-2070-4096-9DB9-76B28C9E2022} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{0842D4D8-A6F8-4882-9D26-E3B816E91833} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{5871351F-9BC6-44B2-AF4F-AC88F4702786} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
