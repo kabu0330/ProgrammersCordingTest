@@ -3,64 +3,117 @@
 
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-int index = -1;
-
-class Node
+struct Node
 {
-public:
-    vector<int> coord = { 0, 0 };
-    int idx = 0;
+    int idx, x, y;
     Node* left = nullptr;
     Node* right = nullptr;
-    Node(int x, int y)
-    {
-        coord[0] = x;
-        coord[1] = y;
-        idx = ++index;
-    }
+
+    Node(int idx, int x, int y) : idx(idx), x(x), y(y) {}
 };
 
-class BST
+class BinaryTree
 {
 private:
     Node* root = nullptr;
 
-public:
-    void insert(vector<int> value)
+    static bool compareNodes(Node* a, Node* b)
     {
-        Node* node = new Node(value[0], value[1]);
-        if (nullptr == root)
+        if (a->y != b->y) // 1. y값 큰 순
         {
-            root = node;
+            return a->y > b->y;
+        }
+        return a->x < b->x; // 2. x값 작은 순
+    }
+
+    Node* addNode(Node* current, Node* newNode)
+    {
+        if (current == nullptr) // 해당 노드가 비었으면 추가
+        {
+            return newNode;
+        }
+        if (newNode->x < current->x)
+        {
+            current->left = addNode(current->left, newNode);
         }
         else
         {
-            int rootX = root->coord[0];
-            int rootY = root->coord[1];
-            int valueX = node->coord[0];
-            int valueY = node->coord[1];
-            if (rootY < valueY)
-            {
-                if (rootX < valueX)
-                {
-                    while
-                }
-            }
+            current->right = addNode(current->right, newNode);
+        }
+        return current;
+    }
+
+    // traversal 벡터에 노드의 인덱스만 저장해서 반환
+    void preOrder(Node* node, vector<int>& traversal)
+    {
+        if (node == nullptr)
+        {
+            return;
+        }
+        traversal.push_back(node->idx);
+        preOrder(node->left, traversal);
+        preOrder(node->right, traversal);
+    }
+
+    void postOrder(Node* node, vector<int>& traversal)
+    {
+        if (node == nullptr)
+        {
+            return;
+        }
+        postOrder(node->left, traversal);
+        postOrder(node->right, traversal);
+        traversal.push_back(node->idx);
+    }
+
+public:
+    BinaryTree() : root(nullptr) {}
+
+    void buildTree(const vector<vector<int>>& nodeInfo)
+    {
+        vector<Node*> nodes;
+        for (int i = 0; i < nodeInfo.size(); i++)
+        {
+            nodes.push_back(new Node(i + 1, nodeInfo[i][0], nodeInfo[i][1]));
         }
 
+        sort(nodes.begin(), nodes.end(), compareNodes);
+
+        for (Node* node : nodes)
+        {
+            root = addNode(root, node);
+        }
+    }
+
+    vector<int> getPreOrderTraversal()
+    {
+        vector<int> traversal;
+        preOrder(root, traversal);
+
+        return traversal;
+    }
+
+    vector<int> getPostOrderTraversal()
+    {
+        vector<int> traversal;
+        postOrder(root, traversal);
+        return traversal;
     }
 };
 
 vector<vector<int>> solution(vector<vector<int>> nodeinfo) 
 {
-    vector<vector<int>> answer;
+    BinaryTree tree;
 
-    
+    tree.buildTree(nodeinfo);
+    vector<int> preOrder = tree.getPreOrderTraversal();
+    vector<int> postOrder = tree.getPostOrderTraversal();
 
-    return answer;
+    return { preOrder, postOrder };
 }
 
 int main()
