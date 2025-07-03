@@ -213,6 +213,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_폰켓몬", "13_폰켓�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_섬 연결하기", "13_섬 연결하기\13_섬 연결하기.vcxproj", "{BEC8F663-0DEB-4436-9220-19B35492A1FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_graph", "14_graph\14_graph.vcxproj", "{C77A55FF-872A-4068-B676-46D2F4823692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -925,6 +927,14 @@ Global
 		{BEC8F663-0DEB-4436-9220-19B35492A1FF}.Release|x64.Build.0 = Release|x64
 		{BEC8F663-0DEB-4436-9220-19B35492A1FF}.Release|x86.ActiveCfg = Release|Win32
 		{BEC8F663-0DEB-4436-9220-19B35492A1FF}.Release|x86.Build.0 = Release|Win32
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Debug|x64.ActiveCfg = Debug|x64
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Debug|x64.Build.0 = Debug|x64
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Debug|x86.ActiveCfg = Debug|Win32
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Debug|x86.Build.0 = Debug|Win32
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x64.ActiveCfg = Release|x64
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x64.Build.0 = Release|x64
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x86.ActiveCfg = Release|Win32
+		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1028,6 +1038,7 @@ Global
 		{0EBB445A-2995-49B9-BBAC-2CCE77CF4AD3} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{3006ADF2-1FC7-457F-9272-7E2F7F0A073D} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{BEC8F663-0DEB-4436-9220-19B35492A1FF} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{C77A55FF-872A-4068-B676-46D2F4823692} = {12B884C8-15AC-4C8B-8ABF-0614DE8982EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
