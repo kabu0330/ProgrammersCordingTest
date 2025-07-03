@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Queue_다리를 지나�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Queue_프로세스", "02_Queue_프로세스\02_Queue_프로세스.vcxproj", "{C0591CBE-96DC-418B-847F-13B7A11DE02B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Programmers", "03_Programmers", "{F9D6FF07-DACF-4140-9C67-BE01A271EDB6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Programmers", "06_Programmers", "{F9D6FF07-DACF-4140-9C67-BE01A271EDB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Test", "02_Test", "{12B884C8-15AC-4C8B-8ABF-0614DE8982EB}"
 EndProject
@@ -214,6 +214,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_섬 연결하기", "13_섬 연결하기\13_섬 연결하기.vcxproj", "{BEC8F663-0DEB-4436-9220-19B35492A1FF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_graph", "14_graph\14_graph.vcxproj", "{C77A55FF-872A-4068-B676-46D2F4823692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Algorithm", "03_Algorithm", "{08447A18-5BCE-4BB3-9AF7-1EA483B8FD29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_깊이 우선 탐색 순회", "14_깊이 우선 탐색 순회\14_깊이 우선 탐색 순회.vcxproj", "{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -935,6 +939,14 @@ Global
 		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x64.Build.0 = Release|x64
 		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x86.ActiveCfg = Release|Win32
 		{C77A55FF-872A-4068-B676-46D2F4823692}.Release|x86.Build.0 = Release|Win32
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Debug|x64.ActiveCfg = Debug|x64
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Debug|x64.Build.0 = Debug|x64
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Debug|x86.Build.0 = Debug|Win32
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Release|x64.ActiveCfg = Release|x64
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Release|x64.Build.0 = Release|x64
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Release|x86.ActiveCfg = Release|Win32
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1039,6 +1051,7 @@ Global
 		{3006ADF2-1FC7-457F-9272-7E2F7F0A073D} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{BEC8F663-0DEB-4436-9220-19B35492A1FF} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{C77A55FF-872A-4068-B676-46D2F4823692} = {12B884C8-15AC-4C8B-8ABF-0614DE8982EB}
+		{6DE7C3E0-D9F3-430F-8195-6EABF801DC58} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
