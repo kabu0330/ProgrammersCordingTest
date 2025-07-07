@@ -31,7 +31,7 @@ private:
     }
 
     Node* addNode(Node* current, Node* newNode)
-    {
+    {   //           root->left, newNode 
         if (current == nullptr) // 해당 노드가 비었으면 추가
         {
             return newNode;
@@ -39,12 +39,13 @@ private:
         if (newNode->x < current->x)
         {
             current->left = addNode(current->left, newNode);
+            // root->left = newNode;
         }
         else
         {
             current->right = addNode(current->right, newNode);
         }
-        return current;
+        return current; // return값은 항상 RootNode이다.D
     }
 
     // traversal 벡터에 노드의 인덱스만 저장해서 반환
@@ -111,13 +112,33 @@ vector<vector<int>> solution(vector<vector<int>> nodeinfo)
 
     tree.buildTree(nodeinfo);
     vector<int> preOrder = tree.getPreOrderTraversal();
+
+    cout << "전위 순회 : ";
+    for (int i = 0; i < preOrder.size(); i++)
+    {
+        cout << preOrder[i] << " ";
+    }
+
+    cout << endl;
+
     vector<int> postOrder = tree.getPostOrderTraversal();
+    cout << "후위 순회 : ";
+    for (int i = 0; i < preOrder.size(); i++)
+    {
+        cout << postOrder[i] << " ";
+    }
+
+    cout << endl;
 
     return { preOrder, postOrder };
 }
 
 int main()
 {
-    vector<vector<int>> nodeinfo = { {5,3} ,{11,5},{13,3},{3,5},{6,1},{1,3},{8,6},{7,2},{2,2} };
+    vector<vector<int>> nodeinfo = { 
+        {5,3}, {11,5}, {13,3}, {3,5},
+        {6,1}, {1,3}, {8,6}, {7,2}, {2,2} 
+    };
+
     vector<vector<int>> result = solution(nodeinfo);
 }
