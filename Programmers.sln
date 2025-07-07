@@ -227,6 +227,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_다익스트라 알고�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_다익스트라 알고리즘3", "16_다익스트라 알고리즘3\16_다익스트라 알고리즘3.vcxproj", "{B3DF6A1B-1905-46E4-B516-378116EEB017}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_벨만 포드 알고리즘", "16_벨만 포드 알고리즘\16_벨만 포드 알고리즘.vcxproj", "{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -987,6 +989,14 @@ Global
 		{B3DF6A1B-1905-46E4-B516-378116EEB017}.Release|x64.Build.0 = Release|x64
 		{B3DF6A1B-1905-46E4-B516-378116EEB017}.Release|x86.ActiveCfg = Release|Win32
 		{B3DF6A1B-1905-46E4-B516-378116EEB017}.Release|x86.Build.0 = Release|Win32
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Debug|x64.ActiveCfg = Debug|x64
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Debug|x64.Build.0 = Debug|x64
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Debug|x86.Build.0 = Debug|Win32
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Release|x64.ActiveCfg = Release|x64
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Release|x64.Build.0 = Release|x64
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Release|x86.ActiveCfg = Release|Win32
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1096,6 +1106,7 @@ Global
 		{AB68E19F-334F-4552-BD4D-0B213A2F9022} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{69185AEB-E30C-4E02-8565-C58A17E15B0D} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{B3DF6A1B-1905-46E4-B516-378116EEB017} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{25F9ED5A-8843-41C6-8DD5-0EE6D4BABE4B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
