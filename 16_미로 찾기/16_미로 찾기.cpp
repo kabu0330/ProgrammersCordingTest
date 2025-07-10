@@ -7,6 +7,8 @@
 
 using namespace std;
 
+// 내일 미로찾기 구현 디버깅하면서 흐름 보고 직접 구현해보기!!!!
+
 struct Point
 {
     int x, y, cnt;
