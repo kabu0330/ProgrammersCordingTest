@@ -237,6 +237,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_미로 탈출 3", "17_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_게임 맵 최단 거리", "17_게임 맵 최단 거리\17_게임 맵 최단 거리.vcxproj", "{A3892BB6-66B9-46FB-A554-518898ADAB46}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_네트워크", "17_네트워크\17_네트워크.vcxproj", "{A76996B0-7D45-4E43-95D4-A6A52053159B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1037,6 +1039,14 @@ Global
 		{A3892BB6-66B9-46FB-A554-518898ADAB46}.Release|x64.Build.0 = Release|x64
 		{A3892BB6-66B9-46FB-A554-518898ADAB46}.Release|x86.ActiveCfg = Release|Win32
 		{A3892BB6-66B9-46FB-A554-518898ADAB46}.Release|x86.Build.0 = Release|Win32
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Debug|x64.ActiveCfg = Debug|x64
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Debug|x64.Build.0 = Debug|x64
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Debug|x86.Build.0 = Debug|Win32
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x64.ActiveCfg = Release|x64
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x64.Build.0 = Release|x64
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x86.ActiveCfg = Release|Win32
+		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1151,6 +1161,7 @@ Global
 		{962FD659-EC97-432C-9989-DA2FB4E28075} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{856F331B-886A-4A87-A7DC-4D1A3A84E98A} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{A3892BB6-66B9-46FB-A554-518898ADAB46} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{A76996B0-7D45-4E43-95D4-A6A52053159B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
