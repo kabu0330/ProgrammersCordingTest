@@ -233,11 +233,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_미로 찾기", "16_미�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_미로 탈출2", "17_미로 탈출2\17_미로 탈출2.vcxproj", "{962FD659-EC97-432C-9989-DA2FB4E28075}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_미로 탈출 3", "17_미로 탈출 3\17_미로 탈출 3.vcxproj", "{856F331B-886A-4A87-A7DC-4D1A3A84E98A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_미로 탈출3", "17_미로 탈출 3\17_미로 탈출 3.vcxproj", "{856F331B-886A-4A87-A7DC-4D1A3A84E98A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_게임 맵 최단 거리", "17_게임 맵 최단 거리\17_게임 맵 최단 거리.vcxproj", "{A3892BB6-66B9-46FB-A554-518898ADAB46}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_네트워크", "17_네트워크\17_네트워크.vcxproj", "{A76996B0-7D45-4E43-95D4-A6A52053159B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_네트워크_bfs", "17_네트워크\17_네트워크.vcxproj", "{A76996B0-7D45-4E43-95D4-A6A52053159B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_네트워크2_dfs", "18_네트워크\18_네트워크.vcxproj", "{60D9BE9A-7210-43D8-845D-20575CC0D7F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_네트워크3_집합", "18_네트워크3_집합\18_네트워크3_집합.vcxproj", "{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1047,6 +1051,22 @@ Global
 		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x64.Build.0 = Release|x64
 		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x86.ActiveCfg = Release|Win32
 		{A76996B0-7D45-4E43-95D4-A6A52053159B}.Release|x86.Build.0 = Release|Win32
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Debug|x64.ActiveCfg = Debug|x64
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Debug|x64.Build.0 = Debug|x64
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Debug|x86.Build.0 = Debug|Win32
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Release|x64.ActiveCfg = Release|x64
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Release|x64.Build.0 = Release|x64
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Release|x86.ActiveCfg = Release|Win32
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7}.Release|x86.Build.0 = Release|Win32
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Debug|x64.ActiveCfg = Debug|x64
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Debug|x64.Build.0 = Debug|x64
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Debug|x86.ActiveCfg = Debug|Win32
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Debug|x86.Build.0 = Debug|Win32
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Release|x64.ActiveCfg = Release|x64
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Release|x64.Build.0 = Release|x64
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Release|x86.ActiveCfg = Release|Win32
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1162,6 +1182,8 @@ Global
 		{856F331B-886A-4A87-A7DC-4D1A3A84E98A} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{A3892BB6-66B9-46FB-A554-518898ADAB46} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{A76996B0-7D45-4E43-95D4-A6A52053159B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{60D9BE9A-7210-43D8-845D-20575CC0D7F7} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{60E8DDF7-B367-466C-9CD6-52B6A11C3D77} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}

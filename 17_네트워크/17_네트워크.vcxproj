@@ -24,6 +24,7 @@
     <ProjectGuid>{a76996b0-7d45-4e43-95d4-a6a52053159b}</ProjectGuid>
     <RootNamespace>My17네트워크</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>17_네트워크_bfs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
