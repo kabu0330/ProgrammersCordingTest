@@ -255,6 +255,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_배달", "19_배달\19_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_경주로 건설", "19_경주로 건설\19_경주로 건설.vcxproj", "{9475E955-31A7-4E3F-AB68-621AB0653D76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "전력망을 둘로 나누기", "전력망을 둘로 나누기\전력망을 둘로 나누기.vcxproj", "{419079A0-4A69-4109-B843-DC53DC209A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1127,6 +1129,14 @@ Global
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x64.Build.0 = Release|x64
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x86.ActiveCfg = Release|Win32
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x86.Build.0 = Release|Win32
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Debug|x64.ActiveCfg = Debug|x64
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Debug|x64.Build.0 = Debug|x64
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Debug|x86.ActiveCfg = Debug|Win32
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Debug|x86.Build.0 = Debug|Win32
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Release|x64.ActiveCfg = Release|x64
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Release|x64.Build.0 = Release|x64
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Release|x86.ActiveCfg = Release|Win32
+		{419079A0-4A69-4109-B843-DC53DC209A93}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1250,6 +1260,7 @@ Global
 		{64EB9C72-529A-4D85-B036-02C64B04FB82} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{A3E23FAF-D7D1-4E2C-93FE-22A57F30602E} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{9475E955-31A7-4E3F-AB68-621AB0653D76} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{419079A0-4A69-4109-B843-DC53DC209A93} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
