@@ -263,6 +263,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_전력망을 둘로 나�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기", "20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기\20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기.vcxproj", "{04B63240-5733-4182-AF4C-DDC52501673B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_스도쿠 퍼즐", "20_스도쿠 퍼즐\20_스도쿠 퍼즐.vcxproj", "{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1167,6 +1169,14 @@ Global
 		{04B63240-5733-4182-AF4C-DDC52501673B}.Release|x64.Build.0 = Release|x64
 		{04B63240-5733-4182-AF4C-DDC52501673B}.Release|x86.ActiveCfg = Release|Win32
 		{04B63240-5733-4182-AF4C-DDC52501673B}.Release|x86.Build.0 = Release|Win32
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Debug|x64.ActiveCfg = Debug|x64
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Debug|x64.Build.0 = Debug|x64
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Debug|x86.Build.0 = Debug|Win32
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x64.ActiveCfg = Release|x64
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x64.Build.0 = Release|x64
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x86.ActiveCfg = Release|Win32
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1294,6 +1304,7 @@ Global
 		{D1B46480-FC99-49CB-9448-DE55EF459CAF} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{8BBBE360-E40D-4971-8707-A12064BB648D} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{04B63240-5733-4182-AF4C-DDC52501673B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
