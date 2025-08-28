@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기.cpp" />
+  </ItemGroup>
+</Project>
