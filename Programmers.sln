@@ -215,8 +215,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_섬 연결하기", "13_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_graph", "14_graph\14_graph.vcxproj", "{C77A55FF-872A-4068-B676-46D2F4823692}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Algorithm", "03_Algorithm", "{08447A18-5BCE-4BB3-9AF7-1EA483B8FD29}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_깊이 우선 탐색 순회", "14_깊이 우선 탐색 순회\14_깊이 우선 탐색 순회.vcxproj", "{6DE7C3E0-D9F3-430F-8195-6EABF801DC58}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_너비 우선 탐색 순회", "14_너비 우선 탐색 순회\14_너비 우선 탐색 순회.vcxproj", "{BDB22A04-BF53-4530-BAE3-D1E1BBE4DA43}"
@@ -264,6 +262,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기", "20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기\20_1부터N까지 숫자 중 합이 10이 되는 조합 구하기.vcxproj", "{04B63240-5733-4182-AF4C-DDC52501673B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_스도쿠 퍼즐", "20_스도쿠 퍼즐\20_스도쿠 퍼즐.vcxproj", "{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterator", "iterator\iterator.vcxproj", "{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1177,6 +1177,14 @@ Global
 		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x64.Build.0 = Release|x64
 		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x86.ActiveCfg = Release|Win32
 		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517}.Release|x86.Build.0 = Release|Win32
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Debug|x64.ActiveCfg = Debug|x64
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Debug|x64.Build.0 = Debug|x64
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Debug|x86.Build.0 = Debug|Win32
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x64.ActiveCfg = Release|x64
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x64.Build.0 = Release|x64
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x86.ActiveCfg = Release|Win32
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1305,6 +1313,7 @@ Global
 		{8BBBE360-E40D-4971-8707-A12064BB648D} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{04B63240-5733-4182-AF4C-DDC52501673B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5} = {12B884C8-15AC-4C8B-8ABF-0614DE8982EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
