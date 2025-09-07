@@ -265,6 +265,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_스도쿠 퍼즐", "20_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterator", "iterator\iterator.vcxproj", "{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_숫자조합", "21_숫자조합\21_숫자조합.vcxproj", "{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1185,6 +1187,14 @@ Global
 		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x64.Build.0 = Release|x64
 		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x86.ActiveCfg = Release|Win32
 		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5}.Release|x86.Build.0 = Release|Win32
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Debug|x64.ActiveCfg = Debug|x64
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Debug|x64.Build.0 = Debug|x64
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Debug|x86.Build.0 = Debug|Win32
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Release|x64.ActiveCfg = Release|x64
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Release|x64.Build.0 = Release|x64
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Release|x86.ActiveCfg = Release|Win32
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1314,6 +1324,7 @@ Global
 		{04B63240-5733-4182-AF4C-DDC52501673B} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{AE4DE9E9-6F2D-414E-BE81-D96FAF807517} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{1BD31DB5-D534-4DB6-8AFF-1AA3737902F5} = {12B884C8-15AC-4C8B-8ABF-0614DE8982EB}
+		{EC09E2B0-82F3-4BFA-BF06-CF8CB4580975} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
