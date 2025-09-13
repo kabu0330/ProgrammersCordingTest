@@ -5,7 +5,7 @@ using namespace std;
 
 int n, m;
 int arr[10] = {};
-bool isused[10] = { 0 };
+bool isused[10] = { false };
 
 void func(int k)
 {
@@ -21,19 +21,19 @@ void func(int k)
 
 	for (int i = 1; i <= n; i++)
 	{
-		if (!isused[i])
+		if (false == isused[i])
 		{
 			arr[k] = i;
-			isused[i] = 1;
+			isused[i] = true;
 			func(k + 1);
-			isused[i] = 0;
+			isused[i] = false;
 		}
 	}
 }
 
 int main()
 {
-	ios::sync_with_stdio(0);
+	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> n >> m;
 	func(0);
