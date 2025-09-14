@@ -105,7 +105,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_진법 변환2", "02_진
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_세탁소 사장 동혁", "02_세탁소 사장 동혁\02_세탁소 사장 동혁.vcxproj", "{184052AA-8118-4781-8AD5-7602A374022D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "못푼 문제", "못푼 문제", "{88DB7C2A-0D83-466C-9BCF-5B3F677CE116}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_못푼 문제", "09_못푼 문제", "{88DB7C2A-0D83-466C-9BCF-5B3F677CE116}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_배수와 약수", "02_배수와 약수\02_배수와 약수.vcxproj", "{C06A80A2-AA12-4764-96EA-64F678138760}"
 EndProject
@@ -115,7 +115,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_분해합", "02_분해�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "next_permutation", "next_permutation\next_permutation.vcxproj", "{AC454523-6004-4B31-9D9E-CA1BA34A3D0C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "코테합격자되기", "코테합격자되기", "{FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_코테합격자되기", "07_코테합격자되기", "{FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_배열 정렬하기", "배열 정렬하기\배열 정렬하기.vcxproj", "{C8A1C02E-A76A-44FD-9F73-B936FD5578A7}"
 EndProject
@@ -304,6 +304,18 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M11", "24_N과 M11\24_N과 M11.vcxproj", "{55D320AD-346D-4960-9304-1600D4E40BEA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M12", "24_N과 M12\24_N과 M12.vcxproj", "{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M Last", "24_N과 M Last\24_N과 M Last.vcxproj", "{3160B2DE-BF85-4236-9F0E-95251A238F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_재귀", "12_재귀", "{4BF6BD4D-2D11-48F0-A714-A0C55061E466}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_팩토리얼", "24_팩토리얼\24_팩토리얼.vcxproj", "{6F8C7C29-1116-49B8-8BD7-D7F047543930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_피보나치 수", "24_피보나치 수\24_피보나치 수.vcxproj", "{AE3F0268-0381-400C-AE54-EC09F58403C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_피보나치 수(재귀 + 동적계획법)", "24_피보나치 수(재귀 + 동적계획법)\24_피보나치 수(재귀 + 동적계획법).vcxproj", "{9A6DBC19-D419-41CD-A47E-43776612CE19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13_동적계획법", "13_동적계획법", "{90CE9943-47DF-43C5-AF06-7B762B1128DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1377,6 +1389,38 @@ Global
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x64.Build.0 = Release|x64
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x86.ActiveCfg = Release|Win32
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x86.Build.0 = Release|Win32
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x64.ActiveCfg = Debug|x64
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x64.Build.0 = Debug|x64
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x86.ActiveCfg = Debug|Win32
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x86.Build.0 = Debug|Win32
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x64.ActiveCfg = Release|x64
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x64.Build.0 = Release|x64
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x86.ActiveCfg = Release|Win32
+		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x86.Build.0 = Release|Win32
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x64.ActiveCfg = Debug|x64
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x64.Build.0 = Debug|x64
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x86.Build.0 = Debug|Win32
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Release|x64.ActiveCfg = Release|x64
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Release|x64.Build.0 = Release|x64
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Release|x86.ActiveCfg = Release|Win32
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Release|x86.Build.0 = Release|Win32
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Debug|x64.ActiveCfg = Debug|x64
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Debug|x64.Build.0 = Debug|x64
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Debug|x86.Build.0 = Debug|Win32
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Release|x64.ActiveCfg = Release|x64
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Release|x64.Build.0 = Release|x64
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Release|x86.ActiveCfg = Release|Win32
+		{AE3F0268-0381-400C-AE54-EC09F58403C8}.Release|x86.Build.0 = Release|Win32
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Debug|x64.ActiveCfg = Debug|x64
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Debug|x64.Build.0 = Debug|x64
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Debug|x86.Build.0 = Debug|Win32
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Release|x64.ActiveCfg = Release|x64
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Release|x64.Build.0 = Release|x64
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Release|x86.ActiveCfg = Release|Win32
+		{9A6DBC19-D419-41CD-A47E-43776612CE19}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1525,6 +1569,10 @@ Global
 		{A724C4B5-BFE8-46B7-A252-92D850493EE3} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
 		{55D320AD-346D-4960-9304-1600D4E40BEA} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
+		{3160B2DE-BF85-4236-9F0E-95251A238F84} = {88DB7C2A-0D83-466C-9BCF-5B3F677CE116}
+		{6F8C7C29-1116-49B8-8BD7-D7F047543930} = {4BF6BD4D-2D11-48F0-A714-A0C55061E466}
+		{AE3F0268-0381-400C-AE54-EC09F58403C8} = {90CE9943-47DF-43C5-AF06-7B762B1128DE}
+		{9A6DBC19-D419-41CD-A47E-43776612CE19} = {4BF6BD4D-2D11-48F0-A714-A0C55061E466}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
