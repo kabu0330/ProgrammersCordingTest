@@ -5,10 +5,10 @@
 
 using namespace std;
 
+int v, e, k; // 정점, 간선, 시작노드
+
 // 거리, 노드
 using Node = std::pair<int, int>;
-
-int v, e, k;
 priority_queue<Node, vector<Node>, greater<Node>> heap;
 vector<int> dist;
 vector<vector<Node>> edges;
@@ -16,7 +16,7 @@ vector<vector<Node>> edges;
 void solve()
 {
 	dist[k] = 0;
-	heap.push({ 0, k });
+	heap.push({ 0, k }); // 처음 시작 노드만 삽입
 
 	while (heap.empty() == false)
 	{
@@ -24,18 +24,18 @@ void solve()
 		int cur_node = heap.top().second;
 		heap.pop();
 
-		if (dist[cur_node] < cost)
+		if (dist[cur_node] < cost) // 최단거리가 아니면 스킵
 		{
 			continue;
 		}
 
 		for (const auto& pair : edges[cur_node])
 		{
-			int total_cost = pair.first + cost;
+			int total_cost = pair.first + cost; // 현재 노드에 도달하기까지 비용 더하기
 			int next_node = pair.second;
 
 			int cur_cost = dist[next_node];
-			if (total_cost < cur_cost)
+			if (total_cost < cur_cost) // 최단거리라면 갱신
 			{
 				dist[next_node] = total_cost;
 				heap.push({ total_cost, next_node });
