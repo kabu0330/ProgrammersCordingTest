@@ -55,7 +55,7 @@ int main()
 
 	for (auto& vec : graph)
 	{
-		std::sort(vec.begin(), vec.end());
+		std::sort(vec.begin(), vec.end(), std::greater<>());
 	}
 
 	bfs(r);
