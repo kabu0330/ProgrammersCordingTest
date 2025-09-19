@@ -10,3 +10,15 @@ int main()
 	int a = st.top();
 }
 
+class MyClass
+{
+	double a;
+	double b;
+	double c;
+	double d;
+};
+
+class Padding
+{
+	MyClass test;
+};

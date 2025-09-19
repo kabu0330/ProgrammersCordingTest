@@ -65,6 +65,7 @@ int solution(vector<vector<int>> board)
             }
         }
     }
+
     int answer = numeric_limits<int>::max();
     for (int i = 0; i < 4; i++)
     {
