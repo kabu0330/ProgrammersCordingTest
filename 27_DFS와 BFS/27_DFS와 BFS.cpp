@@ -1,20 +1,83 @@
-﻿// 27_DFS와 BFS.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
+﻿
 #include <iostream>
+#include <vector>
+#include <queue>
+#include <algorithm>
+
+using namespace std;
+
+int n, m, start;
+vector<vector<int>> graph;
+vector<int> dfs_visited;
+vector<int> bfs_visited;
+
+void dfs(int cur_node)
+{
+	if (dfs_visited[cur_node] == 1)
+	{
+		return;
+	}
+
+	dfs_visited[cur_node] = 1;
+	cout << cur_node << " ";
+	
+	for (auto& adj_node : graph[cur_node])
+	{
+		if (dfs_visited[adj_node] == 0)
+		{		
+			dfs(adj_node);
+		}
+	}
+}
+
+void bfs()
+{
+	bfs_visited.resize(n + 1);
+
+	queue<int> q;
+	q.push(start);
+	bfs_visited[start] = 1;
+
+	while (!q.empty())
+	{
+		int node = q.front();
+		q.pop();
+
+		cout << node << " ";
+
+		for (auto& adj_node : graph[node])
+		{
+			if (bfs_visited[adj_node] == 0)
+			{
+				bfs_visited[adj_node] = 1;
+				q.push(adj_node);
+			}
+		}
+	}
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cin >> n >> m >> start;
+
+	graph.resize(n + 1);
+	for (int i = 0; i < m; i++)
+	{
+		int k, w;
+		cin >> k >> w;
+		graph[k].push_back(w);
+		graph[w].push_back(k);
+	}
+
+	for (auto& vec : graph)
+	{
+		std::sort(vec.begin(), vec.end());
+	}
+
+	dfs_visited.resize(n + 1);
+	dfs(start);
+	cout << "\n";
+	bfs();
 }
-
-// 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
-// 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
-
-// 시작을 위한 팁: 
-//   1. [솔루션 탐색기] 창을 사용하여 파일을 추가/관리합니다.
-//   2. [팀 탐색기] 창을 사용하여 소스 제어에 연결합니다.
-//   3. [출력] 창을 사용하여 빌드 출력 및 기타 메시지를 확인합니다.
-//   4. [오류 목록] 창을 사용하여 오류를 봅니다.
-//   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
-//   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.
