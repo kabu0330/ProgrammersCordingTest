@@ -365,6 +365,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27_DFS와 BFS", "27_DFS와 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27_N-Queen", "27_N-Queen\27_N-Queen.vcxproj", "{A2D3EB1C-F29C-498F-89F4-BEA337B25B9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27_평범한 배낭", "27_평범한 배낭\27_평범한 배낭.vcxproj", "{2A56746B-702B-423C-AB94-A52EC307647C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1613,6 +1615,14 @@ Global
 		{A2D3EB1C-F29C-498F-89F4-BEA337B25B9E}.Release|x64.Build.0 = Release|x64
 		{A2D3EB1C-F29C-498F-89F4-BEA337B25B9E}.Release|x86.ActiveCfg = Release|Win32
 		{A2D3EB1C-F29C-498F-89F4-BEA337B25B9E}.Release|x86.Build.0 = Release|Win32
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Debug|x64.ActiveCfg = Debug|x64
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Debug|x64.Build.0 = Debug|x64
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Debug|x86.Build.0 = Debug|Win32
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Release|x64.ActiveCfg = Release|x64
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Release|x64.Build.0 = Release|x64
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Release|x86.ActiveCfg = Release|Win32
+		{2A56746B-702B-423C-AB94-A52EC307647C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
