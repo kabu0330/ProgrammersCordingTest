@@ -377,6 +377,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_체스판 다시 칠하�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20_투 포인터", "20_투 포인터", "{1412A83B-0552-4D55-90BB-9FCDC6DD99AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29_체스판 다시 칠하기", "29_체스판 다시 칠하기\29_체스판 다시 칠하기.vcxproj", "{92A823A2-4843-48BC-A051-79D044653ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1665,6 +1667,14 @@ Global
 		{79024D99-41B5-49BB-BC6D-F850E29BB60E}.Release|x64.Build.0 = Release|x64
 		{79024D99-41B5-49BB-BC6D-F850E29BB60E}.Release|x86.ActiveCfg = Release|Win32
 		{79024D99-41B5-49BB-BC6D-F850E29BB60E}.Release|x86.Build.0 = Release|Win32
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Debug|x64.ActiveCfg = Debug|x64
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Debug|x64.Build.0 = Debug|x64
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Debug|x86.ActiveCfg = Debug|Win32
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Debug|x86.Build.0 = Debug|Win32
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Release|x64.ActiveCfg = Release|x64
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Release|x64.Build.0 = Release|x64
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Release|x86.ActiveCfg = Release|Win32
+		{92A823A2-4843-48BC-A051-79D044653ECD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1838,6 +1848,7 @@ Global
 		{9F377A18-70E2-491D-8FF5-4D35B5526C25} = {6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}
 		{6C6212BD-B7BD-401B-99D4-90996622AE6D} = {6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}
 		{79024D99-41B5-49BB-BC6D-F850E29BB60E} = {6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}
+		{92A823A2-4843-48BC-A051-79D044653ECD} = {6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
