@@ -16,7 +16,6 @@ int fibo(int n)
 	return fibo(n - 1) + fibo(n - 2);
 }
 
-
 int fibonacci(int n)
 {
 	int dp_count = 0;
