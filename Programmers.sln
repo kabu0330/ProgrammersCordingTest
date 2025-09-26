@@ -401,6 +401,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23_집합과 맵", "23_집�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_숫자 카드", "31_숫자 카드\31_숫자 카드.vcxproj", "{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_문자열 집합", "31_문자열 집합\31_문자열 집합.vcxproj", "{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1761,6 +1763,14 @@ Global
 		{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2}.Release|x64.Build.0 = Release|x64
 		{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2}.Release|x86.ActiveCfg = Release|Win32
 		{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2}.Release|x86.Build.0 = Release|Win32
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Debug|x64.ActiveCfg = Debug|x64
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Debug|x64.Build.0 = Debug|x64
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Debug|x86.Build.0 = Debug|Win32
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Release|x64.ActiveCfg = Release|x64
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Release|x64.Build.0 = Release|x64
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Release|x86.ActiveCfg = Release|Win32
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1944,6 +1954,7 @@ Global
 		{85857A82-4335-4031-9B33-11F2E52FF77A} = {4BF6BD4D-2D11-48F0-A714-A0C55061E466}
 		{97652E3E-0A21-4178-AC68-540814803210} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2} = {59534794-B018-4E80-A343-B07E93337855}
+		{C19DC7DB-2D92-4C17-87D7-519FD04FC8F1} = {59534794-B018-4E80-A343-B07E93337855}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
