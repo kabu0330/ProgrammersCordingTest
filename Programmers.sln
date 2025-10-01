@@ -267,7 +267,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_숫자조합", "21_숫�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21_스도쿠 퍼즐", "21_스도쿠 퍼즐\21_스도쿠 퍼즐.vcxproj", "{E62F2265-1826-4585-B866-AD7178230B6A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11_백트래킹", "11_백트래킹", "{6680B9CE-C759-4A1A-A45F-513AF14442F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "41_백트래킹", "41_백트래킹", "{6680B9CE-C759-4A1A-A45F-513AF14442F0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22_피로도", "22_피로도\22_피로도.vcxproj", "{72599CE2-350F-4587-AAC1-499465E595F4}"
 EndProject
@@ -307,7 +307,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M12", "24_N과 M12\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M Last", "24_N과 M Last\24_N과 M Last.vcxproj", "{3160B2DE-BF85-4236-9F0E-95251A238F84}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_재귀", "12_재귀", "{4BF6BD4D-2D11-48F0-A714-A0C55061E466}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "42_재귀", "42_재귀", "{4BF6BD4D-2D11-48F0-A714-A0C55061E466}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_팩토리얼", "24_팩토리얼\24_팩토리얼.vcxproj", "{6F8C7C29-1116-49B8-8BD7-D7F047543930}"
 EndProject
@@ -315,35 +315,35 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_피보나치 수", "24_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_피보나치 수(재귀 + 동적계획법)", "24_피보나치 수(재귀 + 동적계획법)\24_피보나치 수(재귀 + 동적계획법).vcxproj", "{9A6DBC19-D419-41CD-A47E-43776612CE19}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13_동적계획법", "13_동적계획법", "{90CE9943-47DF-43C5-AF06-7B762B1128DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "33_동적계획법", "33_동적계획법", "{90CE9943-47DF-43C5-AF06-7B762B1128DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14_조합", "14_조합", "{DE98DA53-EC82-459F-97FB-1CD1D8B42293}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "34_조합", "34_조합", "{DE98DA53-EC82-459F-97FB-1CD1D8B42293}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_베라의 패션", "25_베라의 패션\25_베라의 패션.vcxproj", "{AFA5F50F-496C-48B0-AAFF-0D781F96E49E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_팩토리얼", "25_팩토리얼\25_팩토리얼.vcxproj", "{5DFF3D7C-CFCA-41A0-B4FF-1D5A7B9CB018}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15_힙", "15_힙", "{E948904C-0CA1-4187-BBE1-3A63C602D0FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "35_힙", "35_힙", "{E948904C-0CA1-4187-BBE1-3A63C602D0FB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_최대 힙", "25_최대 힙\25_최대 힙.vcxproj", "{32F2A8ED-7502-4822-95A9-F7C336BCE070}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_이항계수1", "25_이항계수1\25_이항계수1.vcxproj", "{5E486C0A-2907-4A3D-B8EE-8A886EE07231}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16_깊이 우선 탐색(DFS)", "16_깊이 우선 탐색(DFS)", "{674092D1-49C0-45B0-87DC-F7C3659D4106}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "36_깊이 우선 탐색(DFS)", "36_깊이 우선 탐색(DFS)", "{674092D1-49C0-45B0-87DC-F7C3659D4106}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_깊이우선탐색1", "25_깊이우선탐색1\25_깊이우선탐색1.vcxproj", "{E82B488E-EBBD-4B66-860D-579829E7826D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_깊이우선탐색2", "25_깊이우선탐색2\25_깊이우선탐색2.vcxproj", "{6B1C362F-3503-45F3-B2AE-90C08938D4FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17_너비 우선 탐색(BFS)", "17_너비 우선 탐색(BFS)", "{D3FC723F-BF9A-486D-8338-36A1A742C584}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "37_너비 우선 탐색(BFS)", "37_너비 우선 탐색(BFS)", "{D3FC723F-BF9A-486D-8338-36A1A742C584}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_너비우선탐색1", "25_너비우선탐색1\25_너비우선탐색1.vcxproj", "{81C0363A-A05A-4C58-8F45-84607F8C6B37}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18_가중치 최단 경로", "18_가중치 최단 경로", "{87C11BDB-780B-413A-9572-DFF85506E95B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "38_가중치 최단 경로", "38_가중치 최단 경로", "{87C11BDB-780B-413A-9572-DFF85506E95B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_최단경로", "25_최단경로\25_최단경로.vcxproj", "{53CE8680-B29D-47D6-9E0F-6C15C1E3E1EF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19_브루트 포스(완전 탐색)", "19_브루트 포스(완전 탐색)", "{6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "39_브루트 포스(완전 탐색)", "39_브루트 포스(완전 탐색)", "{6B2FF6A1-1D78-463E-8CB3-30C8BAC0F7B5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_블랙잭", "25_블랙잭\25_블랙잭.vcxproj", "{E62263E3-CEF4-415E-89B8-41340B4977D6}"
 EndProject
@@ -375,7 +375,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_수학은 비대면강�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28_체스판 다시 칠하기", "28_체스판 다시 칠하기\28_체스판 다시 칠하기.vcxproj", "{79024D99-41B5-49BB-BC6D-F850E29BB60E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20_투 포인터", "20_투 포인터", "{1412A83B-0552-4D55-90BB-9FCDC6DD99AA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40_투 포인터", "40_투 포인터", "{1412A83B-0552-4D55-90BB-9FCDC6DD99AA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29_체스판 다시 칠하기", "29_체스판 다시 칠하기\29_체스판 다시 칠하기.vcxproj", "{92A823A2-4843-48BC-A051-79D044653ECD}"
 EndProject
@@ -385,11 +385,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_설탕 배달", "30_설�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_설탕 배달 풀이2", "30_설탕 배달 풀이2\30_설탕 배달 풀이2.vcxproj", "{5CBF8B47-40FA-4525-8584-6DA3573997F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21_정렬", "21_정렬", "{B373BDE7-E755-4362-BF11-7EE0E09F8B1E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "41_정렬", "41_정렬", "{B373BDE7-E755-4362-BF11-7EE0E09F8B1E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_수 정렬하기", "30_수 정렬하기\30_수 정렬하기.vcxproj", "{79654ED1-49B2-4134-B8C5-A0DDEC59002C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22_조합론", "22_조합론", "{942A1EFF-5965-4BEA-9DE7-384393962863}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "31_조합론", "31_조합론", "{942A1EFF-5965-4BEA-9DE7-384393962863}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_조합론", "30_조합론\30_조합론.vcxproj", "{F14995DC-494A-4C37-BAA0-496662F2325A}"
 EndProject
@@ -397,7 +397,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_재귀의 귀재", "30_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30_계수 정렬 구현하기", "30_계수 정렬 구현하기\30_계수 정렬 구현하기.vcxproj", "{97652E3E-0A21-4178-AC68-540814803210}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23_집합과 맵", "23_집합과 맵", "{59534794-B018-4E80-A343-B07E93337855}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "32_집합과 맵", "32_집합과 맵", "{59534794-B018-4E80-A343-B07E93337855}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31_숫자 카드", "31_숫자 카드\31_숫자 카드.vcxproj", "{E72AB274-C00D-47E7-BFFF-CCA12A6E50B2}"
 EndProject
@@ -424,6 +424,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_튜플2", "32_튜플2\32_튜플2.vcxproj", "{0A14855E-8B1C-4132-A037-683252B724E3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_배열회전하기", "32_배열회전하기\32_배열회전하기.vcxproj", "{2B1AEF99-4E94-400C-A002-4E0C719EDBF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20_문자열", "20_문자열", "{4C21D2DA-BFF0-4C79-8B79-2A243ECFFB1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33_String", "33_String\33_String.vcxproj", "{85E7BB0E-494D-4E28-91E4-A3581649014E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33_N과 M", "33_N과 M\33_N과 M.vcxproj", "{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1873,6 +1879,22 @@ Global
 		{2B1AEF99-4E94-400C-A002-4E0C719EDBF3}.Release|x64.Build.0 = Release|x64
 		{2B1AEF99-4E94-400C-A002-4E0C719EDBF3}.Release|x86.ActiveCfg = Release|Win32
 		{2B1AEF99-4E94-400C-A002-4E0C719EDBF3}.Release|x86.Build.0 = Release|Win32
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Debug|x64.ActiveCfg = Debug|x64
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Debug|x64.Build.0 = Debug|x64
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Debug|x86.ActiveCfg = Debug|Win32
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Debug|x86.Build.0 = Debug|Win32
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Release|x64.ActiveCfg = Release|x64
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Release|x64.Build.0 = Release|x64
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Release|x86.ActiveCfg = Release|Win32
+		{85E7BB0E-494D-4E28-91E4-A3581649014E}.Release|x86.Build.0 = Release|Win32
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Debug|x64.ActiveCfg = Debug|x64
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Debug|x64.Build.0 = Debug|x64
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Debug|x86.Build.0 = Debug|Win32
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Release|x64.ActiveCfg = Release|x64
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Release|x64.Build.0 = Release|x64
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Release|x86.ActiveCfg = Release|Win32
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2067,6 +2089,8 @@ Global
 		{E857A9CE-58AE-4392-8B47-6A0CEDBD1F98} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{0A14855E-8B1C-4132-A037-683252B724E3} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
 		{2B1AEF99-4E94-400C-A002-4E0C719EDBF3} = {FBE1BEEE-1A0F-4B91-BFA9-4798DB703B67}
+		{85E7BB0E-494D-4E28-91E4-A3581649014E} = {4C21D2DA-BFF0-4C79-8B79-2A243ECFFB1F}
+		{A7ED3FD1-EEAB-46DF-B929-CACF0BECC405} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
