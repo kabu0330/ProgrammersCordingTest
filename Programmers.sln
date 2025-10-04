@@ -439,6 +439,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_바이러스", "34_바�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34_촌수계산", "34_촌수계산\34_촌수계산.vcxproj", "{FF0E1D1A-D38D-4F3E-8331-DA692C6312B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_2644_촌수계산", "35_2644_촌수계산\35_2644_촌수계산.vcxproj", "{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1935,6 +1937,14 @@ Global
 		{FF0E1D1A-D38D-4F3E-8331-DA692C6312B3}.Release|x64.Build.0 = Release|x64
 		{FF0E1D1A-D38D-4F3E-8331-DA692C6312B3}.Release|x86.ActiveCfg = Release|Win32
 		{FF0E1D1A-D38D-4F3E-8331-DA692C6312B3}.Release|x86.Build.0 = Release|Win32
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Debug|x64.ActiveCfg = Debug|x64
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Debug|x64.Build.0 = Debug|x64
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Debug|x86.ActiveCfg = Debug|Win32
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Debug|x86.Build.0 = Debug|Win32
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Release|x64.ActiveCfg = Release|x64
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Release|x64.Build.0 = Release|x64
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Release|x86.ActiveCfg = Release|Win32
+		{40E408DA-B5A8-4F2B-94BE-A934A2B3A82D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
