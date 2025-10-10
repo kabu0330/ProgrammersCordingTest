@@ -447,11 +447,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_1926_그림", "35_1926_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_1926_그림_DFS", "35_1926_그림_DFS\35_1926_그림_DFS.vcxproj", "{6DD37C6A-8F4F-4416-8497-F97C81D960BE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_2677_단지번호 붙이기", "35_2677_단지번호 붙이기\35_2677_단지번호 붙이기.vcxproj", "{17EDCD1F-4753-481E-A617-028D663EEA81}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_2667_단지번호 붙이기", "35_2677_단지번호 붙이기\35_2677_단지번호 붙이기.vcxproj", "{17EDCD1F-4753-481E-A617-028D663EEA81}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_1743_음식물 피하기", "35_1743_음식물 피하기\35_1743_음식물 피하기.vcxproj", "{280CA710-5DFE-45EC-BDC0-3387C5070BA7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35_1012_유기농 배추", "35_1012_유기농 배추\35_1012_유기농 배추.vcxproj", "{44BB6D64-3DDB-4FD4-8BD7-4EA0DFB74E02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_2667_단지번호 붙이기", "36_2667_단지번호 붙이기\36_2667_단지번호 붙이기.vcxproj", "{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2005,6 +2007,14 @@ Global
 		{44BB6D64-3DDB-4FD4-8BD7-4EA0DFB74E02}.Release|x64.Build.0 = Release|x64
 		{44BB6D64-3DDB-4FD4-8BD7-4EA0DFB74E02}.Release|x86.ActiveCfg = Release|Win32
 		{44BB6D64-3DDB-4FD4-8BD7-4EA0DFB74E02}.Release|x86.Build.0 = Release|Win32
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Debug|x64.ActiveCfg = Debug|x64
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Debug|x64.Build.0 = Debug|x64
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Debug|x86.ActiveCfg = Debug|Win32
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Debug|x86.Build.0 = Debug|Win32
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Release|x64.ActiveCfg = Release|x64
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Release|x64.Build.0 = Release|x64
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Release|x86.ActiveCfg = Release|Win32
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2211,6 +2221,7 @@ Global
 		{6DD37C6A-8F4F-4416-8497-F97C81D960BE} = {674092D1-49C0-45B0-87DC-F7C3659D4106}
 		{17EDCD1F-4753-481E-A617-028D663EEA81} = {D3FC723F-BF9A-486D-8338-36A1A742C584}
 		{280CA710-5DFE-45EC-BDC0-3387C5070BA7} = {D3FC723F-BF9A-486D-8338-36A1A742C584}
+		{F63914E7-88F6-4CFB-B8EC-7FCECF6BC970} = {674092D1-49C0-45B0-87DC-F7C3659D4106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
