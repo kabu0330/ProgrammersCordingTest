@@ -463,6 +463,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_타겟넘버", "36_타�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_바이러스", "36_바이러스\36_바이러스.vcxproj", "{B9C04E32-05B8-4A44-BE2C-47D3BB497DDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36_연결 요소의 개수", "36_연결 요소의 개수\36_연결 요소의 개수.vcxproj", "{10EF4407-551B-4669-A58B-F8FBEB118256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2055,6 +2057,14 @@ Global
 		{B9C04E32-05B8-4A44-BE2C-47D3BB497DDE}.Release|x64.Build.0 = Release|x64
 		{B9C04E32-05B8-4A44-BE2C-47D3BB497DDE}.Release|x86.ActiveCfg = Release|Win32
 		{B9C04E32-05B8-4A44-BE2C-47D3BB497DDE}.Release|x86.Build.0 = Release|Win32
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Debug|x64.ActiveCfg = Debug|x64
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Debug|x64.Build.0 = Debug|x64
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Debug|x86.ActiveCfg = Debug|Win32
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Debug|x86.Build.0 = Debug|Win32
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Release|x64.ActiveCfg = Release|x64
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Release|x64.Build.0 = Release|x64
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Release|x86.ActiveCfg = Release|Win32
+		{10EF4407-551B-4669-A58B-F8FBEB118256}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2266,6 +2276,7 @@ Global
 		{9C04721D-A056-41BC-9DDE-B8E994003B66} = {674092D1-49C0-45B0-87DC-F7C3659D4106}
 		{57F8ECAD-DCA5-40DA-87BF-C8E92CEC40F8} = {674092D1-49C0-45B0-87DC-F7C3659D4106}
 		{B9C04E32-05B8-4A44-BE2C-47D3BB497DDE} = {D3FC723F-BF9A-486D-8338-36A1A742C584}
+		{10EF4407-551B-4669-A58B-F8FBEB118256} = {D3FC723F-BF9A-486D-8338-36A1A742C584}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
