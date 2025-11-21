@@ -10,7 +10,26 @@ using namespace std;
 
 // 전역 변수
 int n;
+int dp[1000004];
 
+int func(int x)
+{
+	if (x == 1) return 0;
+	if (dp[x]) return dp[x];
+
+	int ret = 0;
+	ret = func(x - 1) + 1;
+	if (x % 3 == 0)
+	{
+		ret = ::min(ret, func(x / 3) + 1);
+	}
+	if (x % 2 == 0)
+	{
+		ret = ::min(ret, func(x / 2) + 1);
+	}
+
+	return dp[x] = ret;
+}
 
 int main()
 {
@@ -18,9 +37,6 @@ int main()
 
 	cin >> n;
 
-
-
-	cout << "정답" << endl;
-
+	cout << func(n);
 }
 
