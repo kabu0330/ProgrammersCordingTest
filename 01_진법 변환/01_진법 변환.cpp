@@ -22,7 +22,7 @@ int main()
             Value = Char - 'A' + 10;
         }
 
-        int Digit = N.length() - i - 1;
+        int Digit = N.length() - i - 1; 
         long long Power = 1;
         for (int j = 0; j < Digit; j++)
         {
