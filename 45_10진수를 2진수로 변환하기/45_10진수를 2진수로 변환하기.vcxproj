@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{423f624d-1a56-4dd0-b2e3-aadec8929786}</ProjectGuid>
-    <RootNamespace>_45_두_개_뽑아서_더하기</RootNamespace>
+    <ProjectGuid>{05285952-d497-452f-b510-3c95b77f907b}</ProjectGuid>
+    <RootNamespace>_45_10진수를_2진수로_변환하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>45_set_두 개 뽑아서 더하기</ProjectName>
+    <ProjectName>45_stack_10진수를 2진수로 변환하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
