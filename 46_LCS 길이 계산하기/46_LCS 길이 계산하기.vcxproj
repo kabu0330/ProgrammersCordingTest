@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ee559853-4a86-49a7-a778-5e823e2b7878}</ProjectGuid>
-    <RootNamespace>_45_방문_길이2</RootNamespace>
+    <ProjectGuid>{971b816f-bd23-42db-bff1-a9ac00eacd69}</ProjectGuid>
+    <RootNamespace>_46_LCS_길이_계산하기</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>0_set_방문 길이2</ProjectName>
+    <ProjectName>0_LCS 길이 계산하기</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
