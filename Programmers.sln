@@ -105,8 +105,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_진법 변환2", "02_진
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_세탁소 사장 동혁", "02_세탁소 사장 동혁\02_세탁소 사장 동혁.vcxproj", "{184052AA-8118-4781-8AD5-7602A374022D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_못푼 문제", "09_못푼 문제", "{88DB7C2A-0D83-466C-9BCF-5B3F677CE116}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_배수와 약수", "02_배수와 약수\02_배수와 약수.vcxproj", "{C06A80A2-AA12-4764-96EA-64F678138760}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_블랙잭", "블랙잭\블랙잭.vcxproj", "{4F483812-5926-4117-9C43-11B038D74876}"
@@ -251,8 +249,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_배달", "19_배달\19_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_경주로 건설", "19_경주로 건설\19_경주로 건설.vcxproj", "{9475E955-31A7-4E3F-AB68-621AB0653D76}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2차원배열", "2차원배열\2차원배열.vcxproj", "{4CBCE91F-25B7-46EB-B523-DA76225C8F80}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_전력망을 둘로 나누기", "20_전력망을 둘로 나누기\20_전력망을 둘로 나누기.vcxproj", "{D1B46480-FC99-49CB-9448-DE55EF459CAF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20_전력망을 둘로 나누기2", "20_전력망을 둘로 나누기2\20_전력망을 둘로 나누기2.vcxproj", "{8BBBE360-E40D-4971-8707-A12064BB648D}"
@@ -304,8 +300,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M11", "24_N과 M11\24_N과 M11.vcxproj", "{55D320AD-346D-4960-9304-1600D4E40BEA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M12", "24_N과 M12\24_N과 M12.vcxproj", "{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_N과 M Last", "24_N과 M Last\24_N과 M Last.vcxproj", "{3160B2DE-BF85-4236-9F0E-95251A238F84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "42_재귀", "42_재귀", "{4BF6BD4D-2D11-48F0-A714-A0C55061E466}"
 EndProject
@@ -565,11 +559,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_실패율", "45_실패�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_방문 길이", "45_방문 길이\45_방문 길이.vcxproj", "{444E6576-55CC-442B-996A-9FFE54457890}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_set_방문 길이2", "45_방문 길이2\45_방문 길이2.vcxproj", "{EE559853-4A86-49A7-A778-5E823E2B7878}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_set_방문 길이2", "45_방문 길이2\45_방문 길이2.vcxproj", "{EE559853-4A86-49A7-A778-5E823E2B7878}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_stack_괄호 짝 맞추기", "45_괄호 짝 맞추기\45_괄호 짝 맞추기.vcxproj", "{268B5F14-A774-409F-8BED-2BC1C2598805}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_stack_10진수를 2진수로 변환하기", "45_10진수를 2진수로 변환하기\45_10진수를 2진수로 변환하기.vcxproj", "{05285952-D497-452F-B510-3C95B77F907B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_stack_10진수를 2진수로 변환하기", "45_10진수를 2진수로 변환하기\45_10진수를 2진수로 변환하기.vcxproj", "{05285952-D497-452F-B510-3C95B77F907B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_짝지어 제거하기", "45_짝지어 제거하기\45_짝지어 제거하기.vcxproj", "{013D95A0-3B44-4326-925B-EC768E7ACB2B}"
 EndProject
@@ -579,13 +573,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_요세푸스 문제", "4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_기능 개발", "46_기능 개발\46_기능 개발.vcxproj", "{3F7418DA-B47A-4591-A40B-50378130774B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_기능 개발 2", "46_기능 개발 2\46_기능 개발 2.vcxproj", "{3E98FD2B-2C54-4DC3-8E81-28468CC57480}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_기능 개발 2", "46_기능 개발 2\46_기능 개발 2.vcxproj", "{3E98FD2B-2C54-4DC3-8E81-28468CC57480}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_두 개의 수로 특정 값 만들기", "46_두 개의 수로 특정 값 만들기\46_두 개의 수로 특정 값 만들기.vcxproj", "{1E0CB3AC-6D84-4D24-8A14-417A00147811}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_LCS 길이 계산하기", "46_LCS 길이 계산하기\46_LCS 길이 계산하기.vcxproj", "{971B816F-BD23-42DB-BFF1-A9AC00EACD69}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_LCS 길이 계산하기", "46_LCS 길이 계산하기\46_LCS 길이 계산하기.vcxproj", "{971B816F-BD23-42DB-BFF1-A9AC00EACD69}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_LIS 계산하기", "46_LIS 계산하기\46_LIS 계산하기.vcxproj", "{C0321317-0CC2-4428-A36C-30D8E439F750}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0_LIS 계산하기", "46_LIS 계산하기\46_LIS 계산하기.vcxproj", "{C0321317-0CC2-4428-A36C-30D8E439F750}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_LCS 길이 계산하기2", "47_LCS 길이 계산하기2\47_LCS 길이 계산하기2.vcxproj", "{A539E8A1-708F-4AB6-8152-7AACCF428681}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47_LIS 계산하기", "47_LIS 계산하기\47_LIS 계산하기.vcxproj", "{C4971B05-D74A-4838-ADEF-BD5E3C79A290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1451,14 +1449,6 @@ Global
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x64.Build.0 = Release|x64
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x86.ActiveCfg = Release|Win32
 		{9475E955-31A7-4E3F-AB68-621AB0653D76}.Release|x86.Build.0 = Release|Win32
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Debug|x64.ActiveCfg = Debug|x64
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Debug|x64.Build.0 = Debug|x64
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Debug|x86.ActiveCfg = Debug|Win32
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Debug|x86.Build.0 = Debug|Win32
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Release|x64.ActiveCfg = Release|x64
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Release|x64.Build.0 = Release|x64
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Release|x86.ActiveCfg = Release|Win32
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80}.Release|x86.Build.0 = Release|Win32
 		{D1B46480-FC99-49CB-9448-DE55EF459CAF}.Debug|x64.ActiveCfg = Debug|x64
 		{D1B46480-FC99-49CB-9448-DE55EF459CAF}.Debug|x64.Build.0 = Debug|x64
 		{D1B46480-FC99-49CB-9448-DE55EF459CAF}.Debug|x86.ActiveCfg = Debug|Win32
@@ -1659,14 +1649,6 @@ Global
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x64.Build.0 = Release|x64
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x86.ActiveCfg = Release|Win32
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5}.Release|x86.Build.0 = Release|Win32
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x64.ActiveCfg = Debug|x64
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x64.Build.0 = Debug|x64
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x86.ActiveCfg = Debug|Win32
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Debug|x86.Build.0 = Debug|Win32
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x64.ActiveCfg = Release|x64
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x64.Build.0 = Release|x64
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x86.ActiveCfg = Release|Win32
-		{3160B2DE-BF85-4236-9F0E-95251A238F84}.Release|x86.Build.0 = Release|Win32
 		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x64.ActiveCfg = Debug|x64
 		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x64.Build.0 = Debug|x64
 		{6F8C7C29-1116-49B8-8BD7-D7F047543930}.Debug|x86.ActiveCfg = Debug|Win32
@@ -2627,6 +2609,22 @@ Global
 		{C0321317-0CC2-4428-A36C-30D8E439F750}.Release|x64.Build.0 = Release|x64
 		{C0321317-0CC2-4428-A36C-30D8E439F750}.Release|x86.ActiveCfg = Release|Win32
 		{C0321317-0CC2-4428-A36C-30D8E439F750}.Release|x86.Build.0 = Release|Win32
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Debug|x64.ActiveCfg = Debug|x64
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Debug|x64.Build.0 = Debug|x64
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Debug|x86.ActiveCfg = Debug|Win32
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Debug|x86.Build.0 = Debug|Win32
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Release|x64.ActiveCfg = Release|x64
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Release|x64.Build.0 = Release|x64
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Release|x86.ActiveCfg = Release|Win32
+		{A539E8A1-708F-4AB6-8152-7AACCF428681}.Release|x86.Build.0 = Release|Win32
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Debug|x64.ActiveCfg = Debug|x64
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Debug|x64.Build.0 = Debug|x64
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Debug|x86.Build.0 = Debug|Win32
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Release|x64.ActiveCfg = Release|x64
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Release|x64.Build.0 = Release|x64
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Release|x86.ActiveCfg = Release|Win32
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2750,7 +2748,6 @@ Global
 		{64EB9C72-529A-4D85-B036-02C64B04FB82} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
 		{A3E23FAF-D7D1-4E2C-93FE-22A57F30602E} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
 		{9475E955-31A7-4E3F-AB68-621AB0653D76} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
-		{4CBCE91F-25B7-46EB-B523-DA76225C8F80} = {88DB7C2A-0D83-466C-9BCF-5B3F677CE116}
 		{D1B46480-FC99-49CB-9448-DE55EF459CAF} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
 		{8BBBE360-E40D-4971-8707-A12064BB648D} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
 		{04B63240-5733-4182-AF4C-DDC52501673B} = {02544FF8-D10D-4D6C-8D2A-54BE3B68068B}
@@ -2776,7 +2773,6 @@ Global
 		{A724C4B5-BFE8-46B7-A252-92D850493EE3} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
 		{55D320AD-346D-4960-9304-1600D4E40BEA} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
 		{B0A32CE1-8EFD-4CDC-B3E4-FC06DF6E99E5} = {6680B9CE-C759-4A1A-A45F-513AF14442F0}
-		{3160B2DE-BF85-4236-9F0E-95251A238F84} = {88DB7C2A-0D83-466C-9BCF-5B3F677CE116}
 		{6F8C7C29-1116-49B8-8BD7-D7F047543930} = {4BF6BD4D-2D11-48F0-A714-A0C55061E466}
 		{AE3F0268-0381-400C-AE54-EC09F58403C8} = {90CE9943-47DF-43C5-AF06-7B762B1128DE}
 		{9A6DBC19-D419-41CD-A47E-43776612CE19} = {4BF6BD4D-2D11-48F0-A714-A0C55061E466}
@@ -2896,6 +2892,8 @@ Global
 		{1E0CB3AC-6D84-4D24-8A14-417A00147811} = {4F5009B8-B56E-4829-9701-118BD0507014}
 		{971B816F-BD23-42DB-BFF1-A9AC00EACD69} = {4F5009B8-B56E-4829-9701-118BD0507014}
 		{C0321317-0CC2-4428-A36C-30D8E439F750} = {4F5009B8-B56E-4829-9701-118BD0507014}
+		{A539E8A1-708F-4AB6-8152-7AACCF428681} = {4F5009B8-B56E-4829-9701-118BD0507014}
+		{C4971B05-D74A-4838-ADEF-BD5E3C79A290} = {4F5009B8-B56E-4829-9701-118BD0507014}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
