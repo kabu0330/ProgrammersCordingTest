@@ -591,6 +591,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_카드 뭉치", "48_기�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_다익스트라 알고리즘", "48_다익스트라 알고리즘\48_다익스트라 알고리즘.vcxproj", "{2B4C893E-6530-4A1A-B9BF-0A8BEE426EC8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48_미로 탈출", "48_미로 탈출\48_미로 탈출.vcxproj", "{79C300BD-B735-4D6F-AD91-C68DAA688278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2655,6 +2657,14 @@ Global
 		{2B4C893E-6530-4A1A-B9BF-0A8BEE426EC8}.Release|x64.Build.0 = Release|x64
 		{2B4C893E-6530-4A1A-B9BF-0A8BEE426EC8}.Release|x86.ActiveCfg = Release|Win32
 		{2B4C893E-6530-4A1A-B9BF-0A8BEE426EC8}.Release|x86.Build.0 = Release|Win32
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Debug|x64.ActiveCfg = Debug|x64
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Debug|x64.Build.0 = Debug|x64
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Debug|x86.ActiveCfg = Debug|Win32
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Debug|x86.Build.0 = Debug|Win32
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Release|x64.ActiveCfg = Release|x64
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Release|x64.Build.0 = Release|x64
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Release|x86.ActiveCfg = Release|Win32
+		{79C300BD-B735-4D6F-AD91-C68DAA688278}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2927,6 +2937,7 @@ Global
 		{3A689739-EB0E-4F5C-8157-84B7E617B9AB} = {4F5009B8-B56E-4829-9701-118BD0507014}
 		{7EAF72A2-71DC-41ED-B1D6-0D7CEAF647F4} = {4F5009B8-B56E-4829-9701-118BD0507014}
 		{2B4C893E-6530-4A1A-B9BF-0A8BEE426EC8} = {4F5009B8-B56E-4829-9701-118BD0507014}
+		{79C300BD-B735-4D6F-AD91-C68DAA688278} = {4F5009B8-B56E-4829-9701-118BD0507014}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32D69349-A0BD-4F00-A1D7-8024F77C1DEA}
